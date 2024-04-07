@@ -35,6 +35,16 @@ wifi:
 
 captive_portal:
 
+### Optional if you want ethernet (then remove all wifi config) ###
+#ethernet:
+#  type: W5500
+#  clk_pin: GPIO18
+#  mosi_pin: GPIO23
+#  miso_pin: GPIO19
+#  cs_pin: GPIO05
+#  interrupt_pin: GPIO35
+#  reset_pin: GPIO14
+
 logger:
   level: DEBUG
 
@@ -75,3 +85,4 @@ media_player:
     dac_type: external
     i2s_dout_pin: GPIO22
     mode: stereo
+
